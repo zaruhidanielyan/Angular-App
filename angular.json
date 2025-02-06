@@ -16,7 +16,11 @@
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "displayBlock": true
+       }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
